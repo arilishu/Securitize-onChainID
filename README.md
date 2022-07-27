@@ -72,6 +72,43 @@ In order to be able to access Securitize APIs, a set of information and variable
    </td>
   </tr>
   <tr>
+   <td><strong>baseUrl</strong>
+<p>
+(SecuritizeID)          
+   </td>
+   <td>
+<ul>
+
+<li><a href="https://id.securitize.io/">https://id.securitize.io/</a>
+    (Production)
+</li>
+
+<li><a href="https://id.sandbox.securitize.io/">https://id.sandbox.securitize.io/</a>
+    (Sandbox)
+</li>
+</ul>
+   </td>
+   <td rowspan="2" >Take into account, that depending on the environment (Production and Sandbox), <strong><em>issuerID</em></strong> and secret will be different, and the <strong><em>redirecturl</em></strong> will have to be configured in SecID for both environments
+   </td>
+  </tr>
+  <tr>
+   <td><strong>SecIdUrl </strong>
+<p>
+(sec-id-connect)
+   </td>
+   <td>
+<ul>
+
+<li><a href="https://sec-id-api.securitize.io/v1/">https://sec-id-api.securitize.io/v1/</a>
+    (Production)</li>
+
+<li><a href="https://sec-id-api.sandbox.securitize.io/v1/">https://sec-id-api.sandbox.securitize.io/v1/</a> 
+    (Sandbox)
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
    <td><strong>issuerID</strong>
    </td>
    <td>String, like this: "b462d564-7562-4528-a207-86fcdfc1c6d5"
